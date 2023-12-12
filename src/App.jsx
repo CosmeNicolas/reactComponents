@@ -1,3 +1,4 @@
+import Contador from "./components/Contador"
 import Informacion from "./components/Informacion"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -9,7 +10,7 @@ function App() {
     <section>
       <h1 className="display-3 text-center">Proyecto de React</h1>
       <Informacion comision='c76i' anioActualprops={anioActual}/>
-      <Informacion/>
+      <Contador/>
     </section>
   )
 }
