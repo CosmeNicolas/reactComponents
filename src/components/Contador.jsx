@@ -17,6 +17,10 @@ const Contador = () => {
         onClick={()=> setNumero(numero +1 )}>
           +1
           </button>
+          <butto className="btn btn-warning"
+          onClick={()=> setNumero(numero -1)}>
+          -1
+          </butto>
       </article>
     </div>
   );
